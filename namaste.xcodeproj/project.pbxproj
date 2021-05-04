@@ -3,10 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E61BFF5033E511E76264F34 /* Pods_namasteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C8D1DF09090C19DE6CF653 /* Pods_namasteTests.framework */; };
+		318CEB5D739374529334B857 /* Pods_namaste_namasteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7582B12C3A736CD86468EA88 /* Pods_namaste_namasteUITests.framework */; };
+		CE1194FD0FF4724B86DD2323 /* Pods_namaste.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A39F87C7C5771B6C2154D /* Pods_namaste.framework */; };
+		FB24514F2641ACBF0009CC2F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB24514E2641ACBF0009CC2F /* SignUpViewController.swift */; };
+		FB2451522641ACF30009CC2F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2451512641ACF30009CC2F /* LoginViewController.swift */; };
+		FB2451542641B4E40009CC2F /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2451532641B4E40009CC2F /* FirstPageViewController.swift */; };
+		FB2451562641BD530009CC2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB2451552641BD530009CC2F /* GoogleService-Info.plist */; };
+		FB2FA121263F70FF00EFC10B /* AVPlayerViewControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2FA120263F70FF00EFC10B /* AVPlayerViewControllerManager.swift */; };
+		FB379F94263B8B8900412165 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB379F93263B8B8900412165 /* CollectionViewCell.swift */; };
+		FB52AAD0263C34B3000379E0 /* HomeCourseCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB52AACF263C34B3000379E0 /* HomeCourseCellModel.swift */; };
+		FB5B3673263F662F002AADFC /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B3672263F662F002AADFC /* VideoViewController.swift */; };
+		FB5B8CE4263DE6E00001B99F /* CourseCollectionVewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B8CE3263DE6E00001B99F /* CourseCollectionVewCell.swift */; };
+		FB5D0E9C263C6FD60015E37A /* CourseDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D0E9B263C6FD60015E37A /* CourseDescriptionViewController.swift */; };
+		FB955C11263DCE3D00478636 /* Apercu Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FAF263C253300412165 /* Apercu Bold Italic.otf */; };
+		FB955C15263DCE4100478636 /* Apercu Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FB0263C253300412165 /* Apercu Regular.otf */; };
+		FB955C16263DCE4100478636 /* Apercu Pro Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FA9263C253300412165 /* Apercu Pro Light Italic.otf */; };
+		FB955C17263DCE4100478636 /* Apercu Pro Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FA2263C253200412165 /* Apercu Pro Medium.otf */; };
+		FB955C18263DCE4100478636 /* Apercu Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FB2263C253300412165 /* Apercu Medium Italic.otf */; };
+		FB955C19263DCE4100478636 /* Apercu Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FAB263C253300412165 /* Apercu Light Italic.otf */; };
+		FB955C1A263DCE4100478636 /* Apercu Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FA3263C253200412165 /* Apercu Medium.otf */; };
+		FB955C1B263DCE4100478636 /* Apercu Mono.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FAE263C253300412165 /* Apercu Mono.otf */; };
+		FB955C1C263DCE4100478636 /* Apercu Pro Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FAD263C253300412165 /* Apercu Pro Regular.otf */; };
+		FB955C1D263DCE4100478636 /* Apercu Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FA4263C253200412165 /* Apercu Light.otf */; };
+		FB955C1E263DCE4100478636 /* Apercu Pro Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FAA263C253300412165 /* Apercu Pro Bold Italic.otf */; };
+		FB955C1F263DCE4100478636 /* Apercu Pro Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FA6263C253200412165 /* Apercu Pro Italic.otf */; };
+		FB955C20263DCE4100478636 /* Apercu Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FA1263C253200412165 /* Apercu Italic.otf */; };
+		FB955C21263DCE4100478636 /* Apercu Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FB1263C253300412165 /* Apercu Pro Bold.otf */; };
+		FB955C22263DCE4100478636 /* Apercu Pro Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FA8263C253300412165 /* Apercu Pro Medium Italic.otf */; };
+		FB955C23263DCE4100478636 /* Apercu Pro Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FA5263C253200412165 /* Apercu Pro Light.otf */; };
+		FB955C24263DCE4100478636 /* Apercu Pro Mono.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FA7263C253200412165 /* Apercu Pro Mono.otf */; };
+		FB955C25263DCE4100478636 /* Apercu Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB379FAC263C253300412165 /* Apercu Bold.otf */; };
+		FB9733F0263F05530067F041 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9733EF263F05530067F041 /* UIColor+.swift */; };
+		FBA986F4263C8BE40097CFAF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA986F3263C8BE40097CFAF /* Model.swift */; };
+		FBA98706263C8F7C0097CFAF /* CourseDescriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA98705263C8F7C0097CFAF /* CourseDescriptionModel.swift */; };
 		FBEF5BF9263B859F00C6AA18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5BF8263B859F00C6AA18 /* AppDelegate.swift */; };
 		FBEF5BFB263B859F00C6AA18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5BFA263B859F00C6AA18 /* SceneDelegate.swift */; };
 		FBEF5BFD263B859F00C6AA18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5BFC263B859F00C6AA18 /* ViewController.swift */; };
@@ -36,6 +70,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05C8EE7DDA286C2CC6064E0E /* Pods-namaste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-namaste.debug.xcconfig"; path = "Target Support Files/Pods-namaste/Pods-namaste.debug.xcconfig"; sourceTree = "<group>"; };
+		32239E2D5529B26402BECDBE /* Pods-namaste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-namaste.release.xcconfig"; path = "Target Support Files/Pods-namaste/Pods-namaste.release.xcconfig"; sourceTree = "<group>"; };
+		43139EE2E7452D79AF6A7F96 /* Pods-namasteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-namasteTests.release.xcconfig"; path = "Target Support Files/Pods-namasteTests/Pods-namasteTests.release.xcconfig"; sourceTree = "<group>"; };
+		54302850F5D813E59A7419E8 /* Pods-namaste-namasteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-namaste-namasteUITests.release.xcconfig"; path = "Target Support Files/Pods-namaste-namasteUITests/Pods-namaste-namasteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B8A39F87C7C5771B6C2154D /* Pods_namaste.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_namaste.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7582B12C3A736CD86468EA88 /* Pods_namaste_namasteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_namaste_namasteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC30C0D3A000D8DAE309ACB /* Pods-namasteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-namasteTests.debug.xcconfig"; path = "Target Support Files/Pods-namasteTests/Pods-namasteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF8FF101233C695A362834CC /* Pods-namaste-namasteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-namaste-namasteUITests.debug.xcconfig"; path = "Target Support Files/Pods-namaste-namasteUITests/Pods-namaste-namasteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7C8D1DF09090C19DE6CF653 /* Pods_namasteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_namasteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB24514E2641ACBF0009CC2F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FB2451512641ACF30009CC2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FB2451532641B4E40009CC2F /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		FB2451552641BD530009CC2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FB2FA120263F70FF00EFC10B /* AVPlayerViewControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerViewControllerManager.swift; sourceTree = "<group>"; };
+		FB2FA155263F730100EFC10B /* namaste.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = namaste.entitlements; sourceTree = "<group>"; };
+		FB379F93263B8B8900412165 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FB379FA1263C253200412165 /* Apercu Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Italic.otf"; sourceTree = "<group>"; };
+		FB379FA2263C253200412165 /* Apercu Pro Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Pro Medium.otf"; sourceTree = "<group>"; };
+		FB379FA3263C253200412165 /* Apercu Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Medium.otf"; sourceTree = "<group>"; };
+		FB379FA4263C253200412165 /* Apercu Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Light.otf"; sourceTree = "<group>"; };
+		FB379FA5263C253200412165 /* Apercu Pro Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Pro Light.otf"; sourceTree = "<group>"; };
+		FB379FA6263C253200412165 /* Apercu Pro Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Pro Italic.otf"; sourceTree = "<group>"; };
+		FB379FA7263C253200412165 /* Apercu Pro Mono.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Pro Mono.otf"; sourceTree = "<group>"; };
+		FB379FA8263C253300412165 /* Apercu Pro Medium Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Pro Medium Italic.otf"; sourceTree = "<group>"; };
+		FB379FA9263C253300412165 /* Apercu Pro Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Pro Light Italic.otf"; sourceTree = "<group>"; };
+		FB379FAA263C253300412165 /* Apercu Pro Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Pro Bold Italic.otf"; sourceTree = "<group>"; };
+		FB379FAB263C253300412165 /* Apercu Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Light Italic.otf"; sourceTree = "<group>"; };
+		FB379FAC263C253300412165 /* Apercu Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Bold.otf"; sourceTree = "<group>"; };
+		FB379FAD263C253300412165 /* Apercu Pro Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Pro Regular.otf"; sourceTree = "<group>"; };
+		FB379FAE263C253300412165 /* Apercu Mono.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Mono.otf"; sourceTree = "<group>"; };
+		FB379FAF263C253300412165 /* Apercu Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Bold Italic.otf"; sourceTree = "<group>"; };
+		FB379FB0263C253300412165 /* Apercu Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Regular.otf"; sourceTree = "<group>"; };
+		FB379FB1263C253300412165 /* Apercu Pro Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Pro Bold.otf"; sourceTree = "<group>"; };
+		FB379FB2263C253300412165 /* Apercu Medium Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Medium Italic.otf"; sourceTree = "<group>"; };
+		FB52AACF263C34B3000379E0 /* HomeCourseCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCourseCellModel.swift; sourceTree = "<group>"; };
+		FB5B3672263F662F002AADFC /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		FB5B8CE3263DE6E00001B99F /* CourseCollectionVewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCollectionVewCell.swift; sourceTree = "<group>"; };
+		FB5D0E9B263C6FD60015E37A /* CourseDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDescriptionViewController.swift; sourceTree = "<group>"; };
+		FB9733EF263F05530067F041 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		FBA986F3263C8BE40097CFAF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FBA98705263C8F7C0097CFAF /* CourseDescriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDescriptionModel.swift; sourceTree = "<group>"; };
 		FBEF5BF5263B859F00C6AA18 /* namaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = namaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEF5BF8263B859F00C6AA18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBEF5BFA263B859F00C6AA18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1194FD0FF4724B86DD2323 /* Pods_namaste.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E61BFF5033E511E76264F34 /* Pods_namasteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +149,109 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318CEB5D739374529334B857 /* Pods_namaste_namasteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		320B3CE75CA7AB5BC6910DBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05C8EE7DDA286C2CC6064E0E /* Pods-namaste.debug.xcconfig */,
+				32239E2D5529B26402BECDBE /* Pods-namaste.release.xcconfig */,
+				DF8FF101233C695A362834CC /* Pods-namaste-namasteUITests.debug.xcconfig */,
+				54302850F5D813E59A7419E8 /* Pods-namaste-namasteUITests.release.xcconfig */,
+				9DC30C0D3A000D8DAE309ACB /* Pods-namasteTests.debug.xcconfig */,
+				43139EE2E7452D79AF6A7F96 /* Pods-namasteTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B08D9B9A83FA968B217BC54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A39F87C7C5771B6C2154D /* Pods_namaste.framework */,
+				7582B12C3A736CD86468EA88 /* Pods_namaste_namasteUITests.framework */,
+				E7C8D1DF09090C19DE6CF653 /* Pods_namasteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB2451502641ACC40009CC2F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FB24514E2641ACBF0009CC2F /* SignUpViewController.swift */,
+				FB2451512641ACF30009CC2F /* LoginViewController.swift */,
+				FB2451532641B4E40009CC2F /* FirstPageViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FB379FA0263C251700412165 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FB379FAF263C253300412165 /* Apercu Bold Italic.otf */,
+				FB379FAC263C253300412165 /* Apercu Bold.otf */,
+				FB379FA1263C253200412165 /* Apercu Italic.otf */,
+				FB379FAB263C253300412165 /* Apercu Light Italic.otf */,
+				FB379FA4263C253200412165 /* Apercu Light.otf */,
+				FB379FB2263C253300412165 /* Apercu Medium Italic.otf */,
+				FB379FA3263C253200412165 /* Apercu Medium.otf */,
+				FB379FAE263C253300412165 /* Apercu Mono.otf */,
+				FB379FAA263C253300412165 /* Apercu Pro Bold Italic.otf */,
+				FB379FB1263C253300412165 /* Apercu Pro Bold.otf */,
+				FB379FA6263C253200412165 /* Apercu Pro Italic.otf */,
+				FB379FA9263C253300412165 /* Apercu Pro Light Italic.otf */,
+				FB379FA5263C253200412165 /* Apercu Pro Light.otf */,
+				FB379FA8263C253300412165 /* Apercu Pro Medium Italic.otf */,
+				FB379FA2263C253200412165 /* Apercu Pro Medium.otf */,
+				FB379FA7263C253200412165 /* Apercu Pro Mono.otf */,
+				FB379FAD263C253300412165 /* Apercu Pro Regular.otf */,
+				FB379FB0263C253300412165 /* Apercu Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FB5D0E96263C5F260015E37A /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF5BFC263B859F00C6AA18 /* ViewController.swift */,
+				FB5D0E9B263C6FD60015E37A /* CourseDescriptionViewController.swift */,
+				FB5B3672263F662F002AADFC /* VideoViewController.swift */,
+				FB2FA120263F70FF00EFC10B /* AVPlayerViewControllerManager.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		FB5D0E97263C5F3F0015E37A /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B8CE3263DE6E00001B99F /* CourseCollectionVewCell.swift */,
+				FB379F93263B8B8900412165 /* CollectionViewCell.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		FB9733EE263F053A0067F041 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				FB9733EF263F05530067F041 /* UIColor+.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		FBA986FE263C8BF00097CFAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB52AACF263C34B3000379E0 /* HomeCourseCellModel.swift */,
+				FBA98705263C8F7C0097CFAF /* CourseDescriptionModel.swift */,
+				FBA986F3263C8BE40097CFAF /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FBEF5BEC263B859F00C6AA18 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +259,8 @@
 				FBEF5C11263B85A100C6AA18 /* namasteTests */,
 				FBEF5C1C263B85A100C6AA18 /* namasteUITests */,
 				FBEF5BF6263B859F00C6AA18 /* Products */,
+				320B3CE75CA7AB5BC6910DBD /* Pods */,
+				6B08D9B9A83FA968B217BC54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +277,21 @@
 		FBEF5BF7263B859F00C6AA18 /* namaste */ = {
 			isa = PBXGroup;
 			children = (
+				FB2FA155263F730100EFC10B /* namaste.entitlements */,
+				FB9733EE263F053A0067F041 /* Theme */,
 				FBEF5BF8263B859F00C6AA18 /* AppDelegate.swift */,
 				FBEF5BFA263B859F00C6AA18 /* SceneDelegate.swift */,
-				FBEF5BFC263B859F00C6AA18 /* ViewController.swift */,
 				FBEF5BFE263B859F00C6AA18 /* Main.storyboard */,
 				FBEF5C04263B85A100C6AA18 /* Assets.xcassets */,
 				FBEF5C06263B85A100C6AA18 /* LaunchScreen.storyboard */,
 				FBEF5C09263B85A100C6AA18 /* Info.plist */,
+				FB2451552641BD530009CC2F /* GoogleService-Info.plist */,
 				FBEF5C01263B859F00C6AA18 /* namaste.xcdatamodeld */,
+				FB2451502641ACC40009CC2F /* Auth */,
+				FB379FA0263C251700412165 /* Fonts */,
+				FB5D0E96263C5F260015E37A /* View Controller */,
+				FBA986FE263C8BF00097CFAF /* Model */,
+				FB5D0E97263C5F3F0015E37A /* Collection */,
 			);
 			path = namaste;
 			sourceTree = "<group>";
@@ -138,9 +321,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEF5C22263B85A100C6AA18 /* Build configuration list for PBXNativeTarget "namaste" */;
 			buildPhases = (
+				64C3A22AACC1D098557C4104 /* [CP] Check Pods Manifest.lock */,
 				FBEF5BF1263B859F00C6AA18 /* Sources */,
 				FBEF5BF2263B859F00C6AA18 /* Frameworks */,
 				FBEF5BF3263B859F00C6AA18 /* Resources */,
+				9EB7B3C556BF92FD6C04CE83 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +340,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEF5C25263B85A100C6AA18 /* Build configuration list for PBXNativeTarget "namasteTests" */;
 			buildPhases = (
+				6E44F7151EC6445E802D28AA /* [CP] Check Pods Manifest.lock */,
 				FBEF5C0A263B85A100C6AA18 /* Sources */,
 				FBEF5C0B263B85A100C6AA18 /* Frameworks */,
 				FBEF5C0C263B85A100C6AA18 /* Resources */,
@@ -173,9 +359,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEF5C28263B85A100C6AA18 /* Build configuration list for PBXNativeTarget "namasteUITests" */;
 			buildPhases = (
+				D078DD8948AED72AA93D3D0C /* [CP] Check Pods Manifest.lock */,
 				FBEF5C15263B85A100C6AA18 /* Sources */,
 				FBEF5C16263B85A100C6AA18 /* Frameworks */,
 				FBEF5C17263B85A100C6AA18 /* Resources */,
+				68568CF278D4892483CF9909 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +422,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB955C17263DCE4100478636 /* Apercu Pro Medium.otf in Resources */,
+				FB955C21263DCE4100478636 /* Apercu Pro Bold.otf in Resources */,
+				FB955C1A263DCE4100478636 /* Apercu Medium.otf in Resources */,
+				FB955C11263DCE3D00478636 /* Apercu Bold Italic.otf in Resources */,
+				FB955C1E263DCE4100478636 /* Apercu Pro Bold Italic.otf in Resources */,
+				FB955C22263DCE4100478636 /* Apercu Pro Medium Italic.otf in Resources */,
 				FBEF5C08263B85A100C6AA18 /* LaunchScreen.storyboard in Resources */,
+				FB955C19263DCE4100478636 /* Apercu Light Italic.otf in Resources */,
+				FB955C24263DCE4100478636 /* Apercu Pro Mono.otf in Resources */,
 				FBEF5C05263B85A100C6AA18 /* Assets.xcassets in Resources */,
 				FBEF5C00263B859F00C6AA18 /* Main.storyboard in Resources */,
+				FB955C15263DCE4100478636 /* Apercu Regular.otf in Resources */,
+				FB955C1C263DCE4100478636 /* Apercu Pro Regular.otf in Resources */,
+				FB955C1F263DCE4100478636 /* Apercu Pro Italic.otf in Resources */,
+				FB955C25263DCE4100478636 /* Apercu Bold.otf in Resources */,
+				FB955C18263DCE4100478636 /* Apercu Medium Italic.otf in Resources */,
+				FB955C1D263DCE4100478636 /* Apercu Light.otf in Resources */,
+				FB955C16263DCE4100478636 /* Apercu Pro Light Italic.otf in Resources */,
+				FB955C20263DCE4100478636 /* Apercu Italic.otf in Resources */,
+				FB2451562641BD530009CC2F /* GoogleService-Info.plist in Resources */,
+				FB955C1B263DCE4100478636 /* Apercu Mono.otf in Resources */,
+				FB955C23263DCE4100478636 /* Apercu Pro Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +463,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64C3A22AACC1D098557C4104 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-namaste-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68568CF278D4892483CF9909 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-namaste-namasteUITests/Pods-namaste-namasteUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-namaste-namasteUITests/Pods-namaste-namasteUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-namaste-namasteUITests/Pods-namaste-namasteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E44F7151EC6445E802D28AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-namasteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB7B3C556BF92FD6C04CE83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-namaste/Pods-namaste-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-namaste/Pods-namaste-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-namaste/Pods-namaste-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D078DD8948AED72AA93D3D0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-namaste-namasteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBEF5BF1263B859F00C6AA18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5D0E9C263C6FD60015E37A /* CourseDescriptionViewController.swift in Sources */,
+				FB379F94263B8B8900412165 /* CollectionViewCell.swift in Sources */,
+				FB5B3673263F662F002AADFC /* VideoViewController.swift in Sources */,
+				FB2451522641ACF30009CC2F /* LoginViewController.swift in Sources */,
 				FBEF5BFD263B859F00C6AA18 /* ViewController.swift in Sources */,
 				FBEF5C03263B859F00C6AA18 /* namaste.xcdatamodeld in Sources */,
+				FB9733F0263F05530067F041 /* UIColor+.swift in Sources */,
+				FB52AAD0263C34B3000379E0 /* HomeCourseCellModel.swift in Sources */,
+				FB5B8CE4263DE6E00001B99F /* CourseCollectionVewCell.swift in Sources */,
+				FB24514F2641ACBF0009CC2F /* SignUpViewController.swift in Sources */,
+				FBA986F4263C8BE40097CFAF /* Model.swift in Sources */,
+				FB2FA121263F70FF00EFC10B /* AVPlayerViewControllerManager.swift in Sources */,
+				FB2451542641B4E40009CC2F /* FirstPageViewController.swift in Sources */,
 				FBEF5BF9263B859F00C6AA18 /* AppDelegate.swift in Sources */,
 				FBEF5BFB263B859F00C6AA18 /* SceneDelegate.swift in Sources */,
+				FBA98706263C8F7C0097CFAF /* CourseDescriptionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,18 +759,49 @@
 		};
 		FBEF5C23263B85A100C6AA18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C8EE7DDA286C2CC6064E0E /* Pods-namaste.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = namaste/namaste.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F6XL2RL8RU;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Cartography\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestoreSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/XCDYouTubeKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+				);
 				INFOPLIST_FILE = namaste/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = teste.123.namaste;
+				PRODUCT_BUNDLE_IDENTIFIER = com.namaste.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,18 +809,22 @@
 		};
 		FBEF5C24263B85A100C6AA18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32239E2D5529B26402BECDBE /* Pods-namaste.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = namaste/namaste.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F6XL2RL8RU;
 				INFOPLIST_FILE = namaste/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = teste.123.namaste;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -475,6 +832,7 @@
 		};
 		FBEF5C26263B85A100C6AA18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC30C0D3A000D8DAE309ACB /* Pods-namasteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +855,7 @@
 		};
 		FBEF5C27263B85A100C6AA18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43139EE2E7452D79AF6A7F96 /* Pods-namasteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +878,7 @@
 		};
 		FBEF5C29263B85A100C6AA18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8FF101233C695A362834CC /* Pods-namaste-namasteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +899,7 @@
 		};
 		FBEF5C2A263B85A100C6AA18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54302850F5D813E59A7419E8 /* Pods-namaste-namasteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
